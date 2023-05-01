@@ -82,12 +82,24 @@ select {
 */
 
 :root {
-    --color-soft-blue: hsl(215, 51%, 70%);
-    --color-cyan: hsl(178, 100%, 50%);
-    --color-dark-blue-main: hsl(217, 54%, 11%);
-    --color-dark-blue-card: hsl(216, 50%, 16%);
-    --color-dark-blue-line: hsl(215, 32%, 27%);
-    --color-white: hsl(0, 0%, 100%);
-    --font: "Outfit", sans-serif;
-    --base-font-size: 1.125rem;
+  --color-soft-blue: hsl(215, 51%, 70%);
+  --color-cyan: hsl(178, 100%, 50%);
+  --color-dark-blue-main: hsl(217, 54%, 11%);
+  --color-dark-blue-card: hsl(216, 50%, 16%);
+  --color-dark-blue-line: hsl(215, 32%, 27%);
+  --color-white: hsl(0, 0%, 100%);
+  --font: "Outfit", sans-serif;
+  --base-font-size: 1.125rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 0.0625rem;
+  height: 0.0625rem;
+  padding: 0;
+  margin: -10.0625rem;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
 }
