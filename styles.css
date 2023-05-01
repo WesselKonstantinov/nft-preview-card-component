@@ -92,12 +92,19 @@ select {
   --base-font-size: 1.125rem;
 }
 
+body {
+    background-color: var(--color-dark-blue-main);
+    font-family: var(--font);
+    font-size: var(--base-font-size);
+    color: var(--color-soft-blue);
+}
+
 .sr-only {
   position: absolute;
   width: 0.0625rem;
   height: 0.0625rem;
   padding: 0;
-  margin: -10.0625rem;
+  margin: -0.0625rem;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
