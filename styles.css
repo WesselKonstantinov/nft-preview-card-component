@@ -89,13 +89,11 @@ select {
   --color-dark-blue-line: hsl(215, 32%, 27%);
   --color-white: hsl(0, 0%, 100%);
   --font: "Outfit", sans-serif;
-  --base-font-size: 1.125rem;
 }
 
 body {
   background-color: var(--color-dark-blue-main);
   font-family: var(--font);
-  font-size: var(--base-font-size);
   color: var(--color-soft-blue);
   display: flex;
   justify-content: center;
@@ -124,4 +122,18 @@ body {
   padding: 1.5rem;
   border-radius: 1rem;
   margin: 1rem;
+}
+
+.card__title {
+  font-weight: 400;
+  font-size: 1.375rem;
+}
+
+.card__link {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+.card__link:hover {
+  color: var(--color-cyan);
 }
