@@ -93,10 +93,13 @@ select {
 }
 
 body {
-    background-color: var(--color-dark-blue-main);
-    font-family: var(--font);
-    font-size: var(--base-font-size);
-    color: var(--color-soft-blue);
+  background-color: var(--color-dark-blue-main);
+  font-family: var(--font);
+  font-size: var(--base-font-size);
+  color: var(--color-soft-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sr-only {
@@ -109,4 +112,16 @@ body {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border-width: 0;
+}
+
+/*
+*   NFT preview card component styles
+*/
+
+.card {
+  background-color: var(--color-dark-blue-card);
+  max-width: 20rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  margin: 1rem;
 }
