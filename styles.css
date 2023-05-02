@@ -186,6 +186,11 @@ body {
   font-weight: 300;
 }
 
+.card__text--highlighted {
+  font-weight: 400;
+  color: var(--color-cyan);
+}
+
 .card__stats {
   padding: 0;
   display: flex;
@@ -196,15 +201,6 @@ body {
   display: flex;
   align-items: center;
   gap: 0.4rem;
-}
-
-.card__icon-label {
-  font-weight: 300;
-}
-
-.card__icon-label--highlighted {
-  font-weight: 400;
-  color: var(--color-cyan);
 }
 
 .card__footer {
