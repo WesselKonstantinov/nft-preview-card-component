@@ -138,7 +138,7 @@ body {
   color: var(--color-cyan);
 }
 
-.card__description {
+.card__text {
   font-weight: 300;
 }
 
@@ -160,5 +160,19 @@ body {
 
 .card__icon-label--highlighted {
   font-weight: 400;
-  color: var(--color-cyan)
+  color: var(--color-cyan);
+}
+
+.card__footer {
+  border-top: 1px solid var(--color-dark-blue-line);
+  padding-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card__avatar {
+  width: 2.1875rem;
+  border: 1px solid var(--color-white);
+  border-radius: 50%;
 }
