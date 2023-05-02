@@ -106,7 +106,7 @@ body {
 
 .card {
   background-color: var(--color-dark-blue-card);
-  max-width: 20rem;
+  max-width: 22rem;
   padding: 1.5rem;
   border-radius: 1rem;
   margin: 1rem;
