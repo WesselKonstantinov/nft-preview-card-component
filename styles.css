@@ -124,6 +124,10 @@ body {
   margin: 1rem;
 }
 
+.card__image {
+  border-radius: 0.5rem;
+}
+
 .card__title {
   font-weight: 400;
   font-size: 1.375rem;
