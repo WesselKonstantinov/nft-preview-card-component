@@ -137,3 +137,28 @@ body {
 .card__link:hover {
   color: var(--color-cyan);
 }
+
+.card__description {
+  font-weight: 300;
+}
+
+.card__stats {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__stat {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.card__icon-label {
+  font-weight: 300;
+}
+
+.card__icon-label--highlighted {
+  font-weight: 400;
+  color: var(--color-cyan)
+}
